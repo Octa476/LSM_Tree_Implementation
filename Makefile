@@ -1,5 +1,5 @@
 CPPC = g++
-CFLAGS = -Wall -Werror
+CFLAGS = -std=c++20 -Wall -Werror
 WORKINGDIR := $(shell basename `pwd`)
 BUILD=build
 LIB=lib
